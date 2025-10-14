@@ -49,7 +49,7 @@ testCloudinaryConnection();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://file-upload-using-cloudinary-mangad-beta.vercel.app',
   credentials: true
 }));
 app.use(express.json());
