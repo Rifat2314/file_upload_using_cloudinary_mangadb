@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 // For development - use full URL to backend
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://file-upload-using-cloudinary-mangad.vercel.app/api';
 
 function App() {
   const [selectedFile, setSelectedFile] = useState(null);
