@@ -208,3 +208,6 @@ app.listen(PORT, function() {
   console.log('🔗 Test the backend: http://localhost:' + PORT + '/api/test');
   console.log('❤️  Health check: http://localhost:' + PORT + '/health');
 });
+
+// Export as Vercel serverless function
+module.exports = app;
