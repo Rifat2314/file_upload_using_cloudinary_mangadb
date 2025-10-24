@@ -180,7 +180,7 @@ h1 {
 
 .files-section h2::before {
   content: '📁';
-  font-size: 10rem;
+  font-size: 2rem;
 }
 
 .no-files {
